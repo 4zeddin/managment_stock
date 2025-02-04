@@ -2,6 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Client;
+use App\Models\Product;
+use App\Models\SubWarehouse;
+use App\Models\Transaction;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -13,11 +17,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+        // User::factory(1)->create();
+        // Client::factory(10)->create();
+        // Product::factory(10)->create();
+        // Transaction::factory(50)->create();
+        // SubWarehouse::factory(5)->create();
     }
 }
